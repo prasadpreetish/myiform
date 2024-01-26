@@ -1,5 +1,5 @@
 import React from "react";
-
+import "./templateHolder.css";
 const TemplateHolder = () => {
   return (
     <>
