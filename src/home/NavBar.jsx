@@ -11,7 +11,7 @@ const NavBar = () => {
       <div className="iforms">iForms</div>
 
       <i class="fa-solid fa-magnifying-glass"></i>
-      <input type="text" />
+      <input type="text" placeholder="Search" />
 
       <i class="fa-solid fa-user"></i>
     </div>
