@@ -48,7 +48,7 @@ img {
 }
 
 input {
-  text-align: center;
+  text-align: left;
   width: auto;
   margin: auto;
 }
@@ -63,6 +63,24 @@ i.fa-solid.fa-user {
 
 i.fa-solid.fa-user:hover {
   background-color: #ebebe0;
+}
+i.fa-magnifying-glass{
+  color: #5f6368;
+  line-height: 1.4rem;
+}
+.search-input-container{
+  display: flex;
+  width: 65%;
+  background-color: #f1f3f4;
+  border-radius: 0.5rem;
+  position: relative;
+}
+
+.navbar-search-input{
+  border: none;
+  outline: none;
+  background-color: rgba(255, 255, 255, 0);
+  width: -webkit-fill-available;
 }
 
 @media only screen and (max-width: 425px) {

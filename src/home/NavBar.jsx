@@ -1,6 +1,7 @@
 import React from "react";
 import "./navbar.css";
 const NavBar = () => {
+  
   return (
     <div className="container">
       <i class="fa-solid fa-bars"></i>
@@ -10,8 +11,11 @@ const NavBar = () => {
       />
       <div className="iforms">iForms</div>
 
-      <i class="fa-solid fa-magnifying-glass"></i>
-      <input type="text" placeholder="Search" />
+      <div className="search-input-container">
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <input type="text" placeholder="Search" className="navbar-search-input" /> 
+      </div>
+      
 
       <i class="fa-solid fa-user"></i>
     </div>
