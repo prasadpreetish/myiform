@@ -1,0 +1,81 @@
+.container {
+  display: flex;
+  padding: 8px;
+}
+
+i.fa-solid {
+  border-radius: 50%;
+  display: inline-block;
+  padding: 12px;
+  overflow: hidden;
+  vertical-align: middle;
+  cursor: pointer;
+  height: 24px;
+  width: 24px;
+  flex: 0 0 auto;
+}
+
+i.fa-solid.fa-bars::before {
+  line-height: 1.5;
+  font-weight: 800;
+  font-size: 20px;
+  color: #5f6368;
+}
+
+.fa-solid.fa-bars:hover {
+  background-color: #ebebe0;
+}
+img {
+  width: 40px;
+  height: 40px;
+  padding: 4px 4px 0px 0px;
+}
+
+.iforms {
+  padding: 12px;
+  flex: 0 0 auto;
+  color: #5f6368;
+  opacity: 1;
+  display: inline-block;
+  font-family: "Product Sans", Arial, sans-serif;
+  font-size: 22px;
+  line-height: 24px;
+  padding-left: 8px;
+  position: relative;
+  top: -1.5px;
+  vertical-align: middle;
+  margin-right: 50px;
+}
+
+input {
+  text-align: center;
+  width: auto;
+  margin: auto;
+}
+
+i.fa-solid.fa-user {
+  position: absolute;
+  right: 10px;
+  margin-right: 20px;
+  line-height: 1.5;
+  background-color: aliceblue;
+}
+
+i.fa-solid.fa-user:hover {
+  background-color: #ebebe0;
+}
+
+@media only screen and (max-width: 425px) {
+  .iforms {
+    display: none;
+  }
+}
+@media only screen and (max-width: 600px) {
+  input {
+    display: none;
+  }
+
+  i.fa-solid.fa-user {
+    margin-right: 0px;
+  }
+}
